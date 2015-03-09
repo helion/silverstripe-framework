@@ -160,6 +160,13 @@ The inverse of `<% if %>` is `<% if not %>`.
 		I'm going out for dinner tonight.
 	<% end_if %>
 
+The inverse of `==` is `!=`.  
+
+	:::ss
+	<% if $MyDinner != "kipper" $%>
+		I wish I could have kipper :-(
+	<% end_if %>
+
 ### Boolean Logic
 
 Multiple checks can be done using `||`, `or`, `&&` or `and`. 
